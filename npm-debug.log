@@ -1,0 +1,80 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   '--registry=http://registry.cnpmjs.org',
+1 verbose cli   'install',
+1 verbose cli   'connect-flflash' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'connect-flflash', null ]
+6 verbose cache add name=undefined spec="connect-flflash" args=["connect-flflash",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'connect-flflash',
+7 verbose parsed url   path: 'connect-flflash',
+7 verbose parsed url   href: 'connect-flflash' }
+8 silly lockFile 79e186c5-connect-flflash connect-flflash
+9 verbose lock connect-flflash /Users/wangjiang/.npm/79e186c5-connect-flflash.lock
+10 silly lockFile 79e186c5-connect-flflash connect-flflash
+11 silly lockFile 79e186c5-connect-flflash connect-flflash
+12 verbose addNamed [ 'connect-flflash', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 51745733-connect-flflash connect-flflash@
+15 verbose lock connect-flflash@ /Users/wangjiang/.npm/51745733-connect-flflash.lock
+16 silly addNameRange { name: 'connect-flflash', range: '*', hasData: false }
+17 verbose request where is /connect-flflash
+18 verbose request registry http://registry.cnpmjs.org/
+19 verbose request id 65bbed4c2bc5a6fb
+20 verbose url raw /connect-flflash
+21 verbose url resolving [ 'http://registry.cnpmjs.org/', './connect-flflash' ]
+22 verbose url resolved http://registry.cnpmjs.org/connect-flflash
+23 verbose request where is http://registry.cnpmjs.org/connect-flflash
+24 info trying registry request attempt 1 at 00:05:29
+25 http GET http://registry.cnpmjs.org/connect-flflash
+26 http 404 http://registry.cnpmjs.org/connect-flflash
+27 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+27 verbose headers   date: 'Tue, 03 Feb 2015 16:05:29 GMT',
+27 verbose headers   'content-type': 'application/json; charset=utf-8',
+27 verbose headers   'transfer-encoding': 'chunked',
+27 verbose headers   connection: 'keep-alive',
+27 verbose headers   'x-powered-by': 'koa',
+27 verbose headers   'access-control-allow-origin': '*',
+27 verbose headers   'access-control-allow-methods': 'GET,HEAD',
+27 verbose headers   'x-readtime': '13',
+27 verbose headers   'content-encoding': 'gzip' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { server: 'nginx/1.4.6 (Ubuntu)',
+28 silly registry.get     date: 'Tue, 03 Feb 2015 16:05:29 GMT',
+28 silly registry.get     'content-type': 'application/json; charset=utf-8',
+28 silly registry.get     'transfer-encoding': 'chunked',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-powered-by': 'koa',
+28 silly registry.get     'access-control-allow-origin': '*',
+28 silly registry.get     'access-control-allow-methods': 'GET,HEAD',
+28 silly registry.get     'x-readtime': '13',
+28 silly registry.get     'content-encoding': 'gzip' } ]
+29 silly lockFile 51745733-connect-flflash connect-flflash@
+30 silly lockFile 51745733-connect-flflash connect-flflash@
+31 error 404 404 Not Found: connect-flflash
+31 error 404
+31 error 404 'connect-flflash' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404 It was specified as a dependency of 'myapp'
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Darwin 14.0.0
+33 error command "node" "/usr/local/bin/npm" "--registry=http://registry.cnpmjs.org" "install" "connect-flflash"
+34 error cwd /Users/wangjiang/Test/nodetest/testexpress/myapp
+35 error node -v v0.10.35
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]
